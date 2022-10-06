@@ -1,0 +1,16 @@
+Anlegen von Branches.
+
+Branches sind Abzweigungen von Commits um Änderungen vorzunehmen.
+Nachdem man eine Änderung gepusht hat, kann man ein Pull request auf Github 
+erstellen. Dadurch bittet man Kollegen darum, sich die Änderungen anzugucken und zu 
+kommentieren.
+Letztendlich kann man den Branch wieder mit dem Main Branch mergen um die Änderungen 
+live zu schalten.
+
+Commands:
+
+git switch -c (Branchname) = create a new Branch and switch to it
+git switch = switch branches
+git branch = list your branches
+git branch -a = list all branches (local and remote)
+git brand -d (Branchname) = delete Branch
